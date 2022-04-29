@@ -91,7 +91,7 @@ static void lcd_page_render()
 
             twr_module_lcd_set_font(&twr_font_ubuntu_24);
 
-            strcpy(&str, "Loading");
+            strcpy(str, "Loading");
             w = twr_module_lcd_draw_string(25, 25, str, true);
         } 
         else {
@@ -112,7 +112,7 @@ static void lcd_page_render()
             
             twr_module_lcd_set_font(&twr_font_ubuntu_24);
 
-            strcpy(&str, "Loading");
+            strcpy(str, "Loading");
             w = twr_module_lcd_draw_string(25, 75, str, true);
         } 
         else {
